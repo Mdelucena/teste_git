@@ -1,0 +1,57 @@
+body{
+    font: arial, sans-serif;
+    color: black;
+}
+
+.menu {
+color: red;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1;
+}
+
+nav ul li a {
+    display: flex;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+
+h1 {
+    background-color: rgb(0, 255, 21);
+}
+
+
+.sobre, .servicos, .contato {
+    align-items: center;
+    justify-content: center;
+    color: rgb(116, 0, 39);
+}
+
+.sobre-parag, .servicos-parag, .contato-parag {
+    align-items: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: black;
+}
+
+.sobre-tit, .servicos-tit, .contato-tit {
+    font-size: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
