@@ -1,6 +1,10 @@
 body{
     font: arial, sans-serif;
-    color: black;
+
+}
+
+h1 {
+    color: white;
 }
 
 .menu {
@@ -23,6 +27,8 @@ nav ul li a {
     padding: 14px;
     text-align: center;
     text-decoration: none;
+    border-radius: 10px;
+    background-color: #ccc;
 }
 
 nav ul li a:hover {
@@ -31,7 +37,7 @@ nav ul li a:hover {
 
 
 h1 {
-    background-color: rgb(0, 255, 21);
+    background-color: rgb(52, 70, 53);
 }
 
 
@@ -39,17 +45,22 @@ h1 {
     align-items: center;
     justify-content: center;
     color: rgb(116, 0, 39);
+   
 }
 
 .sobre-parag, .servicos-parag, .contato-parag {
     align-items: center;
-    font-size: 100px;
+    font-size: 50px;
     font-weight: bold;
     color: black;
 }
 
 .sobre-tit, .servicos-tit, .contato-tit {
     font-size: 30px;
+    border-radius: 20px;
+    background-color: red;
+    padding: 20px;
+    text-align: center;
 }
 
 html {
